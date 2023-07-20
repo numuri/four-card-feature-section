@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white w-5/6 mx-auto mb-7 px-8 py-7 border-t-4 rounded-lg shadow-lg;
+  }
+}
+
+@layer utilities {
+  .title {
+    @apply text-xl font-bold mb-2;
+  }
+
+  .paragraph {
+    @apply text-sm font-thin mb-10;
+  }
+}
